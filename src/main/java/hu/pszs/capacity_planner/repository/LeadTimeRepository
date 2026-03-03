@@ -1,0 +1,9 @@
+package hu.pszs.capacity_planner.repository;
+
+import hu.pszs.capacity_planner.model.LeadTime;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface LeadTimeRepository extends JpaRepository<LeadTime, Integer> {
+}
